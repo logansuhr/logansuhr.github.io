@@ -14,15 +14,21 @@
 <item>
   <title>Drew Lock should have been the Denver Broncos franchise quarterback</title>
   <dc:creator>Logan Suhr</dc:creator>
-  <link>https://your-website-url.example.com/posts/drew-lcok-should-have-been-the-broncos-franchise-quarterback/</link>
+  <link>https://your-website-url.example.com/posts/drew-lock-should-have-been-the-broncos-franchise-quarterback/</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p>Hello this is my post and I am going to write my own post and not use AI.</p>
+<p>Between Peyton Manning and Bo Nix, the Denver Broncos went through a carousel of horrific quarterback play, but did they have to? Drew Lock was drafted 42nd overall in the 2019 NFL Draft by the Broncos and has since become a career backup, but there was once a time when fans were hopeful for his future as Denver’s quarterback after he went 4-1 in his rookie season, after getting the starting position due to a Joe Flacco injury and a Brandon Allen benching.&nbsp;</p>
+<p>After Lock got a full year of starting experience in 2020, many Broncos fans were already done with him. He had some lackluster performances and could be turnover-prone, but others could see the potential and wanted to give Lock more time to develop. He was never given this opportunity, however, because in the offseason the Broncos traded with the Carolina Panthers for Teddy Bridgewater, and Bridgewater was named the starter before the regular season started.&nbsp;</p>
+<p>Some fans were happy with the decision because he provided stability at the position, but others wanted Lock to start because of Bridgewater’s lack of upside; the team essentially knew exactly what they were going to get from Bridgewater.&nbsp;</p>
+<p>We are going to analyze performance data from Drew Lock that shows why he should have been Denver’s franchise guy, or at least given another chance to become the guy. We will be analyzing stats such as the quarterback rating, which analyzes a quarterback’s performance efficiency by combining passing percentage, passing touchdowns, and passing interceptions per attempt into one stat. It has a minimum possible score of 0 and a maximum possible score of 158.3. We will also look at the expected points added (EPA) stat, which calculates how many potential points a quarterback adds or subtracts to their team on each play using down, distance to go, and field position.&nbsp;</p>
+<p>The first question we’ll ask to help us see Drew Lock’s potential is, was his ceiling really that high?</p>
 <div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(tidyverse)</span>
@@ -402,7 +408,7 @@ font-style: inherit;">"Drew Lock had the most efficcient EPA per pass rating out
 background-color: null;
 font-style: inherit;">\n</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">2014 with 22 or more passing attempts while also maintaining a high QBR."</span>, <span class="at" style="color: #657422;
+font-style: inherit;">2014 with 22 or more passing attempts while also maintaining a high passer rating."</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y=</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -410,7 +416,7 @@ font-style: inherit;">"EPA per pass"</span>, <span class="at" style="color: #657
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"QBR"</span>, <span class="at" style="color: #657422;
+font-style: inherit;">"Passer Rating"</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">caption=</span><span class="st" style="color: #20794D;
 background-color: null;
@@ -466,930 +472,22 @@ background-color: null;
 font-style: inherit;">plot.title.position =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"plot"</span></span>
-<span id="cb1-50">    )</span></code></pre></div></div>
+<span id="cb1-50">    ) </span></code></pre></div></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/drew-lcok-should-have-been-the-broncos-franchise-quarterback/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="https://your-website-url.example.com/posts/drew-lock-should-have-been-the-broncos-franchise-quarterback/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
 </div>
+<pre><code></code></pre>
+<p>Since 2014, no other quarterback with 22 or more attempts has had an EPA per pass rating as good as Drew Lock. He also maintained one of the higher passer rating performances. Which is something you probably would not expect, but it shows that while Lock could be inconsistent, his peak single-game efficiency is higher than anything even Patrick Mahomes or Tom Brady did in a time span that includes Mahomes entire career.&nbsp;</p>
+<p>This performance came in a 2024 game when Lock was playing for the New York Giants, and he upset a playoff-hopeful Indianapolis Colts team. Lock also had some very solid performances while playing for the Broncos, so why did he get replaced?&nbsp;</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">goodstats3 <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> stats <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|&gt;</span></span>
-<span id="cb2-2">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">filter</span>(player_display_name <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">==</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Drew Lock"</span>, attempts <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&gt;=</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">15</span>) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|&gt;</span></span>
-<span id="cb2-3">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">mutate</span>( </span>
-<span id="cb2-4"><span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">passer_rating =</span>(</span>
-<span id="cb2-5"> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">pmax</span>(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>, <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">pmin</span>(<span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2.375</span>,(completions<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">/</span>attempts<span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">-0.3</span>)<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">*</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">5</span>))<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span id="cb2-6"> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">pmax</span>(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>, <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">pmin</span>(<span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2.375</span>,(passing_yards<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">/</span>attempts<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">-3</span>)<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">*</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0.25</span>))<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span id="cb2-7"> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">pmax</span>(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>, <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">pmin</span>(<span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2.375</span>,(passing_tds<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">/</span>attempts)<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">*</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">20</span>))<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span id="cb2-8"> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">pmax</span>(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>, <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">pmin</span>(<span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2.375</span>,<span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2.375</span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span>(passing_interceptions<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">/</span>attempts<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">*</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">25</span>))))<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">/</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">6</span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">*</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">100</span> ,</span>
-<span id="cb2-9">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">epa_per_pass =</span> passing_epa<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">/</span>attempts,</span>
-<span id="cb2-10"><span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">passing_percentage =</span> completions<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">/</span>attempts</span>
-<span id="cb2-11">  ) </span>
-<span id="cb2-12"></span>
-<span id="cb2-13">goodqbstats <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|&gt;</span></span>
-<span id="cb2-14">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">select</span>(offensive_coordinator, Team, Season, avg_yds, avg_tds, avg_qbr, avg_completion_percentage) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|&gt;</span></span>
-<span id="cb2-15">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">gt</span>() <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|&gt;</span></span>
-<span id="cb2-16">   <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">cols_label</span>(</span>
-<span id="cb2-17">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">avg_yds =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Average Yards"</span>,</span>
-<span id="cb2-18">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">avg_tds =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Average Touchdowns"</span>, </span>
-<span id="cb2-19">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">avg_completion_percentage =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Average Completion%"</span>,</span>
-<span id="cb2-20">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">avg_qbr =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Average QBR"</span>,</span>
-<span id="cb2-21">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">offensive_coordinator =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Play-Caller"</span></span>
-<span id="cb2-22">  ) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|&gt;</span></span>
-<span id="cb2-23">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">tab_header</span>(</span>
-<span id="cb2-24">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Drew Lock was not the problem, Pat Shurmur was "</span>,</span>
-<span id="cb2-25">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Lock had his worst two seasons on a per game basis when it comes to average completion percentage, and QBR as well as his single season worst average for yards per game and touchdowns per in Denver under Shurmur."</span></span>
-<span id="cb2-26">  ) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|&gt;</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">tab_style</span>(</span>
-<span id="cb2-27">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">style =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">cell_text</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"black"</span>, <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">weight =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"bold"</span>, <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">align =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"left"</span>),</span>
-<span id="cb2-28">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">locations =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">cells_title</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"title"</span>)</span>
-<span id="cb2-29">  ) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|&gt;</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">tab_style</span>(</span>
-<span id="cb2-30">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">style =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">cell_text</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"black"</span>, <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">align =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"left"</span>),</span>
-<span id="cb2-31">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">locations =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">cells_title</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"subtitle"</span>)</span>
-<span id="cb2-32">  ) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|&gt;</span></span>
-<span id="cb2-33">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">tab_source_note</span>(</span>
-<span id="cb2-34">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">source_note =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">md</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"**By:** Logan Suhr  |  **Source:** nflreadr"</span>)</span>
-<span id="cb2-35">  ) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|&gt;</span></span>
-<span id="cb2-36">    <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">tab_style</span>(</span>
-<span id="cb2-37">     <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">locations =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">cells_column_labels</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">columns =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">everything</span>()),</span>
-<span id="cb2-38">     <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">style =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">list</span>(</span>
-<span id="cb2-39">       <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">cell_borders</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">sides =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"bottom"</span>, <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">weight =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">px</span>(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">3</span>)),</span>
-<span id="cb2-40">       <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">cell_text</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">weight =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"bold"</span>, <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">size=</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">12</span>)</span>
-<span id="cb2-41">     )) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|&gt;</span></span>
-<span id="cb2-42">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">opt_row_striping</span>() <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|&gt;</span> </span>
-<span id="cb2-43">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">opt_table_lines</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"none"</span>)<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|&gt;</span></span>
-<span id="cb2-44">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">tab_style</span>(</span>
-<span id="cb2-45">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">style =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">list</span>(</span>
-<span id="cb2-46">      <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">cell_fill</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"#FF0000"</span>),</span>
-<span id="cb2-47">      <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">cell_text</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"white"</span>)</span>
-<span id="cb2-48">      ),</span>
-<span id="cb2-49">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">locations =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">cells_body</span>(</span>
-<span id="cb2-50">      <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">rows =</span> offensive_coordinator <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">==</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Pat Shurmur"</span>)</span>
-<span id="cb2-51">  ) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|&gt;</span></span>
-<span id="cb2-52">    <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">fmt_percent</span>(</span>
-<span id="cb2-53">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">columns =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">c</span>(avg_completion_percentage),</span>
-<span id="cb2-54">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">decimals =</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span></span>
-<span id="cb2-55">    ) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|&gt;</span></span>
-<span id="cb2-56">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">fmt_number</span>(</span>
-<span id="cb2-57">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">columns =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">c</span>(avg_tds, avg_qbr, avg_yds),</span>
-<span id="cb2-58">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">decimals =</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span></span>
-<span id="cb2-59">  )</span></code></pre></div></div>
-<div class="cell-output-display">
-<div id="tixstwaabn" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#tixstwaabn table {
-  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-#tixstwaabn thead, #tixstwaabn tbody, #tixstwaabn tfoot, #tixstwaabn tr, #tixstwaabn td, #tixstwaabn th {
-  border-style: none;
-}
-
-#tixstwaabn p {
-  margin: 0;
-  padding: 0;
-}
-
-#tixstwaabn .gt_table {
-  display: table;
-  border-collapse: collapse;
-  line-height: normal;
-  margin-left: auto;
-  margin-right: auto;
-  color: #333333;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  background-color: #FFFFFF;
-  width: auto;
-  border-top-style: none;
-  border-top-width: 2px;
-  border-top-color: #A8A8A8;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #A8A8A8;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-}
-
-#tixstwaabn .gt_caption {
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-#tixstwaabn .gt_title {
-  color: #333333;
-  font-size: 125%;
-  font-weight: initial;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-color: #FFFFFF;
-  border-bottom-width: 0;
-}
-
-#tixstwaabn .gt_subtitle {
-  color: #333333;
-  font-size: 85%;
-  font-weight: initial;
-  padding-top: 3px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-color: #FFFFFF;
-  border-top-width: 0;
-}
-
-#tixstwaabn .gt_heading {
-  background-color: #FFFFFF;
-  text-align: center;
-  border-bottom-color: #FFFFFF;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-
-#tixstwaabn .gt_bottom_border {
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#tixstwaabn .gt_col_headings {
-  border-top-style: none;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-
-#tixstwaabn .gt_col_heading {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 6px;
-  padding-left: 5px;
-  padding-right: 5px;
-  overflow-x: hidden;
-}
-
-#tixstwaabn .gt_column_spanner_outer {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-
-#tixstwaabn .gt_column_spanner_outer:first-child {
-  padding-left: 0;
-}
-
-#tixstwaabn .gt_column_spanner_outer:last-child {
-  padding-right: 0;
-}
-
-#tixstwaabn .gt_column_spanner {
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  overflow-x: hidden;
-  display: inline-block;
-  width: 100%;
-}
-
-#tixstwaabn .gt_spanner_row {
-  border-bottom-style: hidden;
-}
-
-#tixstwaabn .gt_group_heading {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-top-style: none;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  text-align: left;
-}
-
-#tixstwaabn .gt_empty_group_heading {
-  padding: 0.5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  border-top-style: none;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: middle;
-}
-
-#tixstwaabn .gt_from_md > :first-child {
-  margin-top: 0;
-}
-
-#tixstwaabn .gt_from_md > :last-child {
-  margin-bottom: 0;
-}
-
-#tixstwaabn .gt_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin: 10px;
-  border-top-style: none;
-  border-top-width: 1px;
-  border-top-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  overflow-x: hidden;
-}
-
-#tixstwaabn .gt_stub {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#tixstwaabn .gt_stub_row_group {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-  vertical-align: top;
-}
-
-#tixstwaabn .gt_row_group_first td {
-  border-top-width: 2px;
-}
-
-#tixstwaabn .gt_row_group_first th {
-  border-top-width: 2px;
-}
-
-#tixstwaabn .gt_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#tixstwaabn .gt_first_summary_row {
-  border-top-style: none;
-  border-top-color: #D3D3D3;
-}
-
-#tixstwaabn .gt_first_summary_row.thick {
-  border-top-width: 2px;
-}
-
-#tixstwaabn .gt_last_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#tixstwaabn .gt_grand_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#tixstwaabn .gt_first_grand_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-style: none;
-  border-top-width: 6px;
-  border-top-color: #D3D3D3;
-}
-
-#tixstwaabn .gt_last_grand_summary_row_top {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: none;
-  border-bottom-width: 6px;
-  border-bottom-color: #D3D3D3;
-}
-
-#tixstwaabn .gt_striped {
-  background-color: rgba(128, 128, 128, 0.05);
-}
-
-#tixstwaabn .gt_table_body {
-  border-top-style: none;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#tixstwaabn .gt_footnotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-#tixstwaabn .gt_footnote {
-  margin: 0px;
-  font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#tixstwaabn .gt_sourcenotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-#tixstwaabn .gt_sourcenote {
-  font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#tixstwaabn .gt_left {
-  text-align: left;
-}
-
-#tixstwaabn .gt_center {
-  text-align: center;
-}
-
-#tixstwaabn .gt_right {
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-}
-
-#tixstwaabn .gt_font_normal {
-  font-weight: normal;
-}
-
-#tixstwaabn .gt_font_bold {
-  font-weight: bold;
-}
-
-#tixstwaabn .gt_font_italic {
-  font-style: italic;
-}
-
-#tixstwaabn .gt_super {
-  font-size: 65%;
-}
-
-#tixstwaabn .gt_footnote_marks {
-  font-size: 75%;
-  vertical-align: 0.4em;
-  position: initial;
-}
-
-#tixstwaabn .gt_asterisk {
-  font-size: 100%;
-  vertical-align: 0;
-}
-
-#tixstwaabn .gt_indent_1 {
-  text-indent: 5px;
-}
-
-#tixstwaabn .gt_indent_2 {
-  text-indent: 10px;
-}
-
-#tixstwaabn .gt_indent_3 {
-  text-indent: 15px;
-}
-
-#tixstwaabn .gt_indent_4 {
-  text-indent: 20px;
-}
-
-#tixstwaabn .gt_indent_5 {
-  text-indent: 25px;
-}
-
-#tixstwaabn .katex-display {
-  display: inline-flex !important;
-  margin-bottom: 0.75em !important;
-}
-
-#tixstwaabn div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
-  height: 0px !important;
-}
-</style>
-
-<table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
-<thead>
-<tr class="gt_heading header">
-<td colspan="7" class="gt_heading gt_title gt_font_normal" style="text-align: left; color: #000000; font-weight: bold;">Drew Lock was not the problem, Pat Shurmur was</td>
-</tr>
-<tr class="gt_heading even">
-<td colspan="7" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="text-align: left; color: #000000;">Lock had his worst two seasons on a per game basis when it comes to average completion percentage, and QBR as well as his single season worst average for yards per game and touchdowns per in Denver under Shurmur.</td>
-</tr>
-<tr class="gt_col_headings header">
-<th id="offensive_coordinator" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 12; font-weight: bold" scope="col">Play-Caller</th>
-<th id="Team" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 12; font-weight: bold" scope="col">Team</th>
-<th id="Season" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 12; font-weight: bold" scope="col">Season</th>
-<th id="avg_yds" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 12; font-weight: bold" scope="col">Average Yards</th>
-<th id="avg_tds" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 12; font-weight: bold" scope="col">Average Touchdowns</th>
-<th id="avg_qbr" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 12; font-weight: bold" scope="col">Average QBR</th>
-<th id="avg_completion_percentage" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 12; font-weight: bold" scope="col">Average Completion%</th>
-</tr>
-</thead>
-<tbody class="gt_table_body">
-<tr class="odd">
-<td class="gt_row gt_left" headers="offensive_coordinator">Rich Scangarello</td>
-<td class="gt_row gt_left" headers="Team">DEN</td>
-<td class="gt_row gt_right" headers="Season">2019</td>
-<td class="gt_row gt_right" headers="avg_yds">218.40</td>
-<td class="gt_row gt_right" headers="avg_tds">1.40</td>
-<td class="gt_row gt_right" headers="avg_qbr">92.36</td>
-<td class="gt_row gt_right" headers="avg_completion_percentage">65.45%</td>
-</tr>
-<tr class="even">
-<td class="gt_row gt_left gt_striped" headers="offensive_coordinator" style="background-color: #FF0000; color: #FFFFFF">Pat Shurmur</td>
-<td class="gt_row gt_left gt_striped" headers="Team" style="background-color: #FF0000; color: #FFFFFF">DEN</td>
-<td class="gt_row gt_right gt_striped" headers="Season" style="background-color: #FF0000; color: #FFFFFF">2020</td>
-<td class="gt_row gt_right gt_striped" headers="avg_yds" style="background-color: #FF0000; color: #FFFFFF">256.08</td>
-<td class="gt_row gt_right gt_striped" headers="avg_tds" style="background-color: #FF0000; color: #FFFFFF">1.58</td>
-<td class="gt_row gt_right gt_striped" headers="avg_qbr" style="background-color: #FF0000; color: #FFFFFF">76.77</td>
-<td class="gt_row gt_right gt_striped" headers="avg_completion_percentage" style="background-color: #FF0000; color: #FFFFFF">58.22%</td>
-</tr>
-<tr class="odd">
-<td class="gt_row gt_left" headers="offensive_coordinator" style="background-color: #FF0000; color: #FFFFFF">Pat Shurmur</td>
-<td class="gt_row gt_left" headers="Team" style="background-color: #FF0000; color: #FFFFFF">DEN</td>
-<td class="gt_row gt_right" headers="Season" style="background-color: #FF0000; color: #FFFFFF">2021</td>
-<td class="gt_row gt_right" headers="avg_yds" style="background-color: #FF0000; color: #FFFFFF">182.00</td>
-<td class="gt_row gt_right" headers="avg_tds" style="background-color: #FF0000; color: #FFFFFF">0.75</td>
-<td class="gt_row gt_right" headers="avg_qbr" style="background-color: #FF0000; color: #FFFFFF">82.07</td>
-<td class="gt_row gt_right" headers="avg_completion_percentage" style="background-color: #FF0000; color: #FFFFFF">61.83%</td>
-</tr>
-<tr class="even">
-<td class="gt_row gt_left gt_striped" headers="offensive_coordinator">Shane Waldron</td>
-<td class="gt_row gt_left gt_striped" headers="Team">SEA</td>
-<td class="gt_row gt_right gt_striped" headers="Season">2022</td>
-<td class="gt_row gt_right gt_striped" headers="avg_yds">NA</td>
-<td class="gt_row gt_right gt_striped" headers="avg_tds">NA</td>
-<td class="gt_row gt_right gt_striped" headers="avg_qbr">NA</td>
-<td class="gt_row gt_right gt_striped" headers="avg_completion_percentage">NA</td>
-</tr>
-<tr class="odd">
-<td class="gt_row gt_left" headers="offensive_coordinator">Shane Waldron</td>
-<td class="gt_row gt_left" headers="Team">SEA</td>
-<td class="gt_row gt_right" headers="Season">2023</td>
-<td class="gt_row gt_right" headers="avg_yds">240.00</td>
-<td class="gt_row gt_right" headers="avg_tds">1.50</td>
-<td class="gt_row gt_right" headers="avg_qbr">93.00</td>
-<td class="gt_row gt_right" headers="avg_completion_percentage">68.82%</td>
-</tr>
-<tr class="even">
-<td class="gt_row gt_left gt_striped" headers="offensive_coordinator">Brian Daboll</td>
-<td class="gt_row gt_left gt_striped" headers="Team">NYG</td>
-<td class="gt_row gt_right gt_striped" headers="Season">2024</td>
-<td class="gt_row gt_right gt_striped" headers="avg_yds">236.40</td>
-<td class="gt_row gt_right gt_striped" headers="avg_tds">1.60</td>
-<td class="gt_row gt_right gt_striped" headers="avg_qbr">82.37</td>
-<td class="gt_row gt_right gt_striped" headers="avg_completion_percentage">62.93%</td>
-</tr>
-<tr class="odd">
-<td class="gt_row gt_left" headers="offensive_coordinator">Klint Kubiak</td>
-<td class="gt_row gt_left" headers="Team">SEA</td>
-<td class="gt_row gt_right" headers="Season">2025</td>
-<td class="gt_row gt_right" headers="avg_yds">NA</td>
-<td class="gt_row gt_right" headers="avg_tds">NA</td>
-<td class="gt_row gt_right" headers="avg_qbr">NA</td>
-<td class="gt_row gt_right" headers="avg_completion_percentage">NA</td>
-</tr>
-</tbody><tfoot>
-<tr class="gt_sourcenotes odd">
-<td colspan="7" class="gt_sourcenote"><strong>By:</strong> Logan Suhr | <strong>Source:</strong> nflreadr</td>
-</tr>
-</tfoot>
-
-</table>
-
-</div>
-</div>
-</div>
-<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">goodstats2 <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> stats <span class="sc" style="color: #5E5E5E;
@@ -1857,7 +955,7 @@ font-style: inherit;">""</span>, </span>
 background-color: null;
 font-style: inherit;">y=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"QBR"</span>, </span>
+font-style: inherit;">"Passer Rating"</span>, </span>
 <span id="cb3-39">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">title=</span><span class="st" style="color: #20794D;
@@ -1867,15 +965,15 @@ font-style: inherit;">"High potential, but bad consistency "</span>, </span>
 background-color: null;
 font-style: inherit;">subtitle=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Drew Lock had two of the top three performances, when it comes to QBR, by a Broncos quarterback between Peyton </span><span class="sc" style="color: #5E5E5E;
+font-style: inherit;">"Drew Lock had two of the top three performances, when it comes to passer rating, by a Broncos quarterback </span><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">\n</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">Manning and Bo Nix, although he could be inconsistent, only having one more performance showing up in the top 15, he </span><span class="sc" style="color: #5E5E5E;
+font-style: inherit;">between Peyton Manning and Bo Nix, although he could be inconsistent, only having one more performance </span><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">\n</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">was not given the opportunity to improve."</span>, </span>
+font-style: inherit;">showing up in the top 15."</span>, </span>
 <span id="cb3-41">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">caption=</span><span class="st" style="color: #20794D;
@@ -1934,13 +1032,16 @@ font-style: inherit;">plot.title.position =</span> <span class="st" style="color
 background-color: null;
 font-style: inherit;">"plot"</span></span>
 <span id="cb3-50">    ) </span></code></pre></div></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/drew-lcok-should-have-been-the-broncos-franchise-quarterback/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="https://your-website-url.example.com/posts/drew-lock-should-have-been-the-broncos-franchise-quarterback/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">ggplot</span>() <span class="sc" style="color: #5E5E5E;
@@ -1997,7 +1098,7 @@ font-style: inherit;">""</span>, </span>
 background-color: null;
 font-style: inherit;">y=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"QBR"</span>, </span>
+font-style: inherit;">"Passer Rating"</span>, </span>
 <span id="cb4-8">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">title=</span><span class="st" style="color: #20794D;
@@ -2007,11 +1108,11 @@ font-style: inherit;">"High Ceiling vs. High Floor "</span>, </span>
 background-color: null;
 font-style: inherit;">subtitle=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Teddy Bridgewater replaced Drew Lock as the Broncos primary starter for the 2021 season. While his play was more </span><span class="sc" style="color: #5E5E5E;
+font-style: inherit;">"Teddy Bridgewater replaced Drew Lock as the Broncos primary starter for the 2021 season. While his play </span><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">\n</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">consistent and had a higher floor, his ceiling was also lower."</span>, </span>
+font-style: inherit;">was more consistent and had a higher floor, his ceiling was also lower."</span>, </span>
 <span id="cb4-10">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">caption=</span><span class="st" style="color: #20794D;
@@ -2052,32 +1153,964 @@ background-color: null;
 font-style: inherit;">8</span>), </span>
 <span id="cb4-16">    <span class="at" style="color: #657422;
 background-color: null;
+font-style: inherit;">axis.text.y =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">element_text</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">6</span>),</span>
+<span id="cb4-17">    <span class="at" style="color: #657422;
+background-color: null;
 font-style: inherit;">plot.subtitle =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">element_text</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">size=</span><span class="dv" style="color: #AD0000;
+font-style: inherit;">size=</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">10</span>), </span>
-<span id="cb4-17">    <span class="at" style="color: #657422;
+<span id="cb4-18">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">panel.grid.minor =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">element_blank</span>(),</span>
-<span id="cb4-18">    <span class="at" style="color: #657422;
+<span id="cb4-19">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">plot.title.position =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"plot"</span></span>
-<span id="cb4-19">    ) </span></code></pre></div></div>
+<span id="cb4-20">    ) </span></code></pre></div></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/drew-lcok-should-have-been-the-broncos-franchise-quarterback/index_files/figure-html/unnamed-chunk-3-2.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="https://your-website-url.example.com/posts/drew-lock-should-have-been-the-broncos-franchise-quarterback/index_files/figure-html/unnamed-chunk-2-2.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
 </div>
+<p>In the period of time between Peyton Manning and Bo Nix, Drew Lock holds two of the three highest performances based on quarterback rating for the Broncos, but he only appears one more time in the top 15. He also has some significantly better performances than his replacement, Teddy Bridgewater, as well as some significantly worse.</p>
+<p>Denver took the safe option in starting Bridgewater due to Lock’s high ceiling, low floor potential, but why, after a full season of starting, was Lock unable to develop and start playing at a higher level more consistently?</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">goodstats3 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> stats <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb5-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">filter</span>(player_display_name <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Drew Lock"</span>, attempts <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">15</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb5-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>( </span>
+<span id="cb5-4"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">passer_rating =</span>(</span>
+<span id="cb5-5"> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">pmax</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">pmin</span>(<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2.375</span>,(completions<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span>attempts<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">-0.3</span>)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>))<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb5-6"> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">pmax</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">pmin</span>(<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2.375</span>,(passing_yards<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span>attempts<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">-3</span>)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.25</span>))<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb5-7"> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">pmax</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">pmin</span>(<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2.375</span>,(passing_tds<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span>attempts)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">20</span>))<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb5-8"> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">pmax</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">pmin</span>(<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2.375</span>,<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2.375</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>(passing_interceptions<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span>attempts<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">25</span>))))<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">6</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span> ,</span>
+<span id="cb5-9">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">epa_per_pass =</span> passing_epa<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span>attempts,</span>
+<span id="cb5-10"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">passing_percentage =</span> completions<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span>attempts</span>
+<span id="cb5-11">  ) </span>
+<span id="cb5-12"></span>
+<span id="cb5-13">goodqbstats <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb5-14">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">select</span>(offensive_coordinator, Team, Season, avg_yds, avg_tds, avg_qbr, avg_completion_percentage) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb5-15">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">gt</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb5-16">   <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cols_label</span>(</span>
+<span id="cb5-17">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">avg_yds =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Average Yards"</span>,</span>
+<span id="cb5-18">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">avg_tds =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Average Touchdowns"</span>, </span>
+<span id="cb5-19">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">avg_completion_percentage =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Average Completion%"</span>,</span>
+<span id="cb5-20">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">avg_qbr =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Average Passer Rating"</span>,</span>
+<span id="cb5-21">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">offensive_coordinator =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Play-Caller"</span></span>
+<span id="cb5-22">  ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb5-23">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tab_header</span>(</span>
+<span id="cb5-24">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Drew Lock was not the problem, Pat Shurmur was "</span>,</span>
+<span id="cb5-25">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Lock had his worst two seasons on a per game basis when it comes to average completion percentage, and QBR as well as his single season worst average for yards per game and touchdowns per in Denver under Shurmur."</span></span>
+<span id="cb5-26">  ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tab_style</span>(</span>
+<span id="cb5-27">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">style =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cell_text</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"black"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">weight =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"bold"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">align =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"left"</span>),</span>
+<span id="cb5-28">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">locations =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cells_title</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"title"</span>)</span>
+<span id="cb5-29">  ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tab_style</span>(</span>
+<span id="cb5-30">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">style =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cell_text</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"black"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">align =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"left"</span>),</span>
+<span id="cb5-31">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">locations =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cells_title</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"subtitle"</span>)</span>
+<span id="cb5-32">  ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb5-33">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tab_source_note</span>(</span>
+<span id="cb5-34">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">source_note =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">md</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"**By:** Logan Suhr  |  **Source:** nflreadr"</span>)</span>
+<span id="cb5-35">  ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb5-36">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tab_style</span>(</span>
+<span id="cb5-37">     <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">locations =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cells_column_labels</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">columns =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">everything</span>()),</span>
+<span id="cb5-38">     <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">style =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">list</span>(</span>
+<span id="cb5-39">       <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cell_borders</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">sides =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"bottom"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">weight =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">px</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>)),</span>
+<span id="cb5-40">       <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cell_text</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">weight =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"bold"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>)</span>
+<span id="cb5-41">     )) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb5-42">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">opt_row_striping</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span> </span>
+<span id="cb5-43">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">opt_table_lines</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"none"</span>)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb5-44">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tab_style</span>(</span>
+<span id="cb5-45">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">style =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">list</span>(</span>
+<span id="cb5-46">      <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cell_fill</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#FF0000"</span>),</span>
+<span id="cb5-47">      <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cell_text</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"white"</span>)</span>
+<span id="cb5-48">      ),</span>
+<span id="cb5-49">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">locations =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cells_body</span>(</span>
+<span id="cb5-50">      <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">rows =</span> offensive_coordinator <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Pat Shurmur"</span>)</span>
+<span id="cb5-51">  ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb5-52">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">fmt_percent</span>(</span>
+<span id="cb5-53">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">columns =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(avg_completion_percentage),</span>
+<span id="cb5-54">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">decimals =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span></span>
+<span id="cb5-55">    ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb5-56">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">fmt_number</span>(</span>
+<span id="cb5-57">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">columns =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(avg_tds, avg_qbr, avg_yds),</span>
+<span id="cb5-58">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">decimals =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span></span>
+<span id="cb5-59">  )</span></code></pre></div></div>
+</details>
+<div class="cell-output-display">
+<div id="qthxeujzpv" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#qthxeujzpv table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#qthxeujzpv thead, #qthxeujzpv tbody, #qthxeujzpv tfoot, #qthxeujzpv tr, #qthxeujzpv td, #qthxeujzpv th {
+  border-style: none;
+}
+
+#qthxeujzpv p {
+  margin: 0;
+  padding: 0;
+}
+
+#qthxeujzpv .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#qthxeujzpv .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#qthxeujzpv .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#qthxeujzpv .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#qthxeujzpv .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#qthxeujzpv .gt_bottom_border {
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#qthxeujzpv .gt_col_headings {
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#qthxeujzpv .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#qthxeujzpv .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#qthxeujzpv .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#qthxeujzpv .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#qthxeujzpv .gt_column_spanner {
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#qthxeujzpv .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#qthxeujzpv .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#qthxeujzpv .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#qthxeujzpv .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#qthxeujzpv .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#qthxeujzpv .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: none;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#qthxeujzpv .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#qthxeujzpv .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#qthxeujzpv .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#qthxeujzpv .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#qthxeujzpv .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#qthxeujzpv .gt_first_summary_row {
+  border-top-style: none;
+  border-top-color: #D3D3D3;
+}
+
+#qthxeujzpv .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#qthxeujzpv .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#qthxeujzpv .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#qthxeujzpv .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: none;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#qthxeujzpv .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: none;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#qthxeujzpv .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#qthxeujzpv .gt_table_body {
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#qthxeujzpv .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#qthxeujzpv .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#qthxeujzpv .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#qthxeujzpv .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#qthxeujzpv .gt_left {
+  text-align: left;
+}
+
+#qthxeujzpv .gt_center {
+  text-align: center;
+}
+
+#qthxeujzpv .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#qthxeujzpv .gt_font_normal {
+  font-weight: normal;
+}
+
+#qthxeujzpv .gt_font_bold {
+  font-weight: bold;
+}
+
+#qthxeujzpv .gt_font_italic {
+  font-style: italic;
+}
+
+#qthxeujzpv .gt_super {
+  font-size: 65%;
+}
+
+#qthxeujzpv .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#qthxeujzpv .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#qthxeujzpv .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#qthxeujzpv .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#qthxeujzpv .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#qthxeujzpv .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#qthxeujzpv .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#qthxeujzpv .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#qthxeujzpv div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_heading header">
+<td colspan="7" class="gt_heading gt_title gt_font_normal" style="text-align: left; color: #000000; font-weight: bold;">Drew Lock was not the problem, Pat Shurmur was</td>
+</tr>
+<tr class="gt_heading even">
+<td colspan="7" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="text-align: left; color: #000000;">Lock had his worst two seasons on a per game basis when it comes to average completion percentage, and QBR as well as his single season worst average for yards per game and touchdowns per in Denver under Shurmur.</td>
+</tr>
+<tr class="gt_col_headings header">
+<th id="offensive_coordinator" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 12; font-weight: bold" scope="col">Play-Caller</th>
+<th id="Team" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 12; font-weight: bold" scope="col">Team</th>
+<th id="Season" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 12; font-weight: bold" scope="col">Season</th>
+<th id="avg_yds" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 12; font-weight: bold" scope="col">Average Yards</th>
+<th id="avg_tds" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 12; font-weight: bold" scope="col">Average Touchdowns</th>
+<th id="avg_qbr" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 12; font-weight: bold" scope="col">Average Passer Rating</th>
+<th id="avg_completion_percentage" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 12; font-weight: bold" scope="col">Average Completion%</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_left" headers="offensive_coordinator">Rich Scangarello</td>
+<td class="gt_row gt_left" headers="Team">DEN</td>
+<td class="gt_row gt_right" headers="Season">2019</td>
+<td class="gt_row gt_right" headers="avg_yds">218.40</td>
+<td class="gt_row gt_right" headers="avg_tds">1.40</td>
+<td class="gt_row gt_right" headers="avg_qbr">92.36</td>
+<td class="gt_row gt_right" headers="avg_completion_percentage">65.45%</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_striped" headers="offensive_coordinator" style="background-color: #FF0000; color: #FFFFFF">Pat Shurmur</td>
+<td class="gt_row gt_left gt_striped" headers="Team" style="background-color: #FF0000; color: #FFFFFF">DEN</td>
+<td class="gt_row gt_right gt_striped" headers="Season" style="background-color: #FF0000; color: #FFFFFF">2020</td>
+<td class="gt_row gt_right gt_striped" headers="avg_yds" style="background-color: #FF0000; color: #FFFFFF">256.08</td>
+<td class="gt_row gt_right gt_striped" headers="avg_tds" style="background-color: #FF0000; color: #FFFFFF">1.58</td>
+<td class="gt_row gt_right gt_striped" headers="avg_qbr" style="background-color: #FF0000; color: #FFFFFF">76.77</td>
+<td class="gt_row gt_right gt_striped" headers="avg_completion_percentage" style="background-color: #FF0000; color: #FFFFFF">58.22%</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="offensive_coordinator" style="background-color: #FF0000; color: #FFFFFF">Pat Shurmur</td>
+<td class="gt_row gt_left" headers="Team" style="background-color: #FF0000; color: #FFFFFF">DEN</td>
+<td class="gt_row gt_right" headers="Season" style="background-color: #FF0000; color: #FFFFFF">2021</td>
+<td class="gt_row gt_right" headers="avg_yds" style="background-color: #FF0000; color: #FFFFFF">182.00</td>
+<td class="gt_row gt_right" headers="avg_tds" style="background-color: #FF0000; color: #FFFFFF">0.75</td>
+<td class="gt_row gt_right" headers="avg_qbr" style="background-color: #FF0000; color: #FFFFFF">82.07</td>
+<td class="gt_row gt_right" headers="avg_completion_percentage" style="background-color: #FF0000; color: #FFFFFF">61.83%</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_striped" headers="offensive_coordinator">Shane Waldron</td>
+<td class="gt_row gt_left gt_striped" headers="Team">SEA</td>
+<td class="gt_row gt_right gt_striped" headers="Season">2022</td>
+<td class="gt_row gt_right gt_striped" headers="avg_yds">0.00</td>
+<td class="gt_row gt_right gt_striped" headers="avg_tds">0.00</td>
+<td class="gt_row gt_right gt_striped" headers="avg_qbr">0.00</td>
+<td class="gt_row gt_right gt_striped" headers="avg_completion_percentage">0.00%</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="offensive_coordinator">Shane Waldron</td>
+<td class="gt_row gt_left" headers="Team">SEA</td>
+<td class="gt_row gt_right" headers="Season">2023</td>
+<td class="gt_row gt_right" headers="avg_yds">240.00</td>
+<td class="gt_row gt_right" headers="avg_tds">1.50</td>
+<td class="gt_row gt_right" headers="avg_qbr">93.00</td>
+<td class="gt_row gt_right" headers="avg_completion_percentage">68.82%</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_striped" headers="offensive_coordinator">Brian Daboll</td>
+<td class="gt_row gt_left gt_striped" headers="Team">NYG</td>
+<td class="gt_row gt_right gt_striped" headers="Season">2024</td>
+<td class="gt_row gt_right gt_striped" headers="avg_yds">236.40</td>
+<td class="gt_row gt_right gt_striped" headers="avg_tds">1.60</td>
+<td class="gt_row gt_right gt_striped" headers="avg_qbr">82.37</td>
+<td class="gt_row gt_right gt_striped" headers="avg_completion_percentage">62.93%</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="offensive_coordinator">Klint Kubiak</td>
+<td class="gt_row gt_left" headers="Team">SEA</td>
+<td class="gt_row gt_right" headers="Season">2025</td>
+<td class="gt_row gt_right" headers="avg_yds">0.00</td>
+<td class="gt_row gt_right" headers="avg_tds">0.00</td>
+<td class="gt_row gt_right" headers="avg_qbr">0.00</td>
+<td class="gt_row gt_right" headers="avg_completion_percentage">0.00%</td>
+</tr>
+</tbody><tfoot>
+<tr class="gt_sourcenotes odd">
+<td colspan="7" class="gt_sourcenote"><strong>By:</strong> Logan Suhr | <strong>Source:</strong> nflreadr</td>
+</tr>
+</tfoot>
+
+</table>
+
+</div>
+</div>
+</div>
+<p>Pat Shurmur, who was the offensive coordinator in Denver for the 2020 and 2021 seasons under head coach Vic Fangio, was not able to get as much out of Drew Lock efficiency-wise as literally any other play caller Lock has had throughout his career. He had his worst completion percentage and quarterback rating seasons under Shurmur, and while in 2020 he had better average numbers volume-wise, his efficiency was atrocious.&nbsp;</p>
+<p>With Drew Lock’s high potential, he should have been given another full season to develop with a competent coaching staff that believed in him and could’ve help him improve his game and learn from mistakes. Then he could have been the franchise quarterback the Denver Broncos spent so much time searching for.</p>
+<p>&nbsp;Giving a quarterback more time to develop worked out for the Bills and Josh Allen, and Lock’s current teammate, Sam Darnold, who was considered a massive draft bust, went from “seeing ghosts” to winning Super Bowls and tying Tom Brady for most wins in a two-season stretch after being given time to develop and a competent coaching staff.</p>
 
 
 
@@ -2085,9 +2118,9 @@ font-style: inherit;">"plot"</span></span>
   <category>NFL</category>
   <category>Broncos</category>
   <category>Quarterbacks</category>
-  <guid>https://your-website-url.example.com/posts/drew-lcok-should-have-been-the-broncos-franchise-quarterback/</guid>
+  <guid>https://your-website-url.example.com/posts/drew-lock-should-have-been-the-broncos-franchise-quarterback/</guid>
   <pubDate>Thu, 09 Apr 2026 05:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/drew-lcok-should-have-been-the-broncos-franchise-quarterback/image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://your-website-url.example.com/posts/drew-lock-should-have-been-the-broncos-franchise-quarterback/image1.png" medium="image" type="image/png" height="98" width="144"/>
 </item>
 <item>
   <title>Post With Code</title>
