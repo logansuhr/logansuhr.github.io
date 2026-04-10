@@ -24,7 +24,7 @@
 <p>Between Peyton Manning and Bo Nix, the Denver Broncos went through a carousel of horrific quarterback play, but did they have to? Drew Lock was drafted 42nd overall in the 2019 NFL Draft by the Broncos and has since become a career backup, but there was once a time when fans were hopeful for his future as Denver’s quarterback after he went 4-1 in his rookie season, after getting the starting position due to a Joe Flacco injury and a Brandon Allen benching.&nbsp;</p>
 <p>After Lock got a full year of starting experience in 2020, many Broncos fans were already done with him. He had some lackluster performances and could be turnover-prone, but others could see the potential and wanted to give Lock more time to develop. He was never given this opportunity, however, because in the offseason the Broncos traded with the Carolina Panthers for Teddy Bridgewater, and Bridgewater was named the starter before the regular season started.&nbsp;</p>
 <p>Some fans were happy with the decision because he provided stability at the position, but others wanted Lock to start because of Bridgewater’s lack of upside; the team essentially knew exactly what they were going to get from Bridgewater.&nbsp;</p>
-<p>We are going to analyze performance data from Drew Lock that shows why he should have been Denver’s franchise guy, or at least given another chance to become the guy. We will be analyzing stats such as the quarterback rating, which analyzes a quarterback’s performance efficiency by combining passing percentage, passing touchdowns, and passing interceptions per attempt into one stat. It has a minimum possible score of 0 and a maximum possible score of 158.3. We will also look at the expected points added (EPA) stat, which calculates how many potential points a quarterback adds or subtracts to their team on each play using down, distance to go, and field position.&nbsp;</p>
+<p>We are going to analyze performance data from Drew Lock that shows why he should have been Denver’s franchise guy, or at least given another chance to become the guy. We will be analyzing stats such as the passer rating, which analyzes a quarterback’s performance efficiency by combining passing percentage, passing touchdowns, and passing interceptions per attempt into one stat. It has a minimum possible score of 0 and a maximum possible score of 158.3. We will also look at the expected points added (EPA) stat, which calculates how many potential points a quarterback adds or subtracts to their team on each play using down, distance to go, and field position.&nbsp;</p>
 <p>The first question we’ll ask to help us see Drew Lock’s potential is, was his ceiling really that high?</p>
 <div class="cell">
 <details class="code-fold">
@@ -1565,23 +1565,23 @@ font-style: inherit;">2</span></span>
 <span id="cb5-59">  )</span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
-<div id="qthxeujzpv" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#qthxeujzpv table {
+<div id="ajssldtmpd" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ajssldtmpd table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#qthxeujzpv thead, #qthxeujzpv tbody, #qthxeujzpv tfoot, #qthxeujzpv tr, #qthxeujzpv td, #qthxeujzpv th {
+#ajssldtmpd thead, #ajssldtmpd tbody, #ajssldtmpd tfoot, #ajssldtmpd tr, #ajssldtmpd td, #ajssldtmpd th {
   border-style: none;
 }
 
-#qthxeujzpv p {
+#ajssldtmpd p {
   margin: 0;
   padding: 0;
 }
 
-#qthxeujzpv .gt_table {
+#ajssldtmpd .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1607,12 +1607,12 @@ font-style: inherit;">2</span></span>
   border-left-color: #D3D3D3;
 }
 
-#qthxeujzpv .gt_caption {
+#ajssldtmpd .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#qthxeujzpv .gt_title {
+#ajssldtmpd .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1624,7 +1624,7 @@ font-style: inherit;">2</span></span>
   border-bottom-width: 0;
 }
 
-#qthxeujzpv .gt_subtitle {
+#ajssldtmpd .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1636,7 +1636,7 @@ font-style: inherit;">2</span></span>
   border-top-width: 0;
 }
 
-#qthxeujzpv .gt_heading {
+#ajssldtmpd .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1648,13 +1648,13 @@ font-style: inherit;">2</span></span>
   border-right-color: #D3D3D3;
 }
 
-#qthxeujzpv .gt_bottom_border {
+#ajssldtmpd .gt_bottom_border {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#qthxeujzpv .gt_col_headings {
+#ajssldtmpd .gt_col_headings {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1669,7 +1669,7 @@ font-style: inherit;">2</span></span>
   border-right-color: #D3D3D3;
 }
 
-#qthxeujzpv .gt_col_heading {
+#ajssldtmpd .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1689,7 +1689,7 @@ font-style: inherit;">2</span></span>
   overflow-x: hidden;
 }
 
-#qthxeujzpv .gt_column_spanner_outer {
+#ajssldtmpd .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1701,15 +1701,15 @@ font-style: inherit;">2</span></span>
   padding-right: 4px;
 }
 
-#qthxeujzpv .gt_column_spanner_outer:first-child {
+#ajssldtmpd .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#qthxeujzpv .gt_column_spanner_outer:last-child {
+#ajssldtmpd .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#qthxeujzpv .gt_column_spanner {
+#ajssldtmpd .gt_column_spanner {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1721,11 +1721,11 @@ font-style: inherit;">2</span></span>
   width: 100%;
 }
 
-#qthxeujzpv .gt_spanner_row {
+#ajssldtmpd .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#qthxeujzpv .gt_group_heading {
+#ajssldtmpd .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1751,7 +1751,7 @@ font-style: inherit;">2</span></span>
   text-align: left;
 }
 
-#qthxeujzpv .gt_empty_group_heading {
+#ajssldtmpd .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1766,15 +1766,15 @@ font-style: inherit;">2</span></span>
   vertical-align: middle;
 }
 
-#qthxeujzpv .gt_from_md > :first-child {
+#ajssldtmpd .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#qthxeujzpv .gt_from_md > :last-child {
+#ajssldtmpd .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#qthxeujzpv .gt_row {
+#ajssldtmpd .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1793,7 +1793,7 @@ font-style: inherit;">2</span></span>
   overflow-x: hidden;
 }
 
-#qthxeujzpv .gt_stub {
+#ajssldtmpd .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1806,7 +1806,7 @@ font-style: inherit;">2</span></span>
   padding-right: 5px;
 }
 
-#qthxeujzpv .gt_stub_row_group {
+#ajssldtmpd .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1820,15 +1820,15 @@ font-style: inherit;">2</span></span>
   vertical-align: top;
 }
 
-#qthxeujzpv .gt_row_group_first td {
+#ajssldtmpd .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#qthxeujzpv .gt_row_group_first th {
+#ajssldtmpd .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#qthxeujzpv .gt_summary_row {
+#ajssldtmpd .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1838,16 +1838,16 @@ font-style: inherit;">2</span></span>
   padding-right: 5px;
 }
 
-#qthxeujzpv .gt_first_summary_row {
+#ajssldtmpd .gt_first_summary_row {
   border-top-style: none;
   border-top-color: #D3D3D3;
 }
 
-#qthxeujzpv .gt_first_summary_row.thick {
+#ajssldtmpd .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#qthxeujzpv .gt_last_summary_row {
+#ajssldtmpd .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1857,7 +1857,7 @@ font-style: inherit;">2</span></span>
   border-bottom-color: #D3D3D3;
 }
 
-#qthxeujzpv .gt_grand_summary_row {
+#ajssldtmpd .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1867,7 +1867,7 @@ font-style: inherit;">2</span></span>
   padding-right: 5px;
 }
 
-#qthxeujzpv .gt_first_grand_summary_row {
+#ajssldtmpd .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1877,7 +1877,7 @@ font-style: inherit;">2</span></span>
   border-top-color: #D3D3D3;
 }
 
-#qthxeujzpv .gt_last_grand_summary_row_top {
+#ajssldtmpd .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1887,11 +1887,11 @@ font-style: inherit;">2</span></span>
   border-bottom-color: #D3D3D3;
 }
 
-#qthxeujzpv .gt_striped {
+#ajssldtmpd .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#qthxeujzpv .gt_table_body {
+#ajssldtmpd .gt_table_body {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1900,7 +1900,7 @@ font-style: inherit;">2</span></span>
   border-bottom-color: #D3D3D3;
 }
 
-#qthxeujzpv .gt_footnotes {
+#ajssldtmpd .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1914,7 +1914,7 @@ font-style: inherit;">2</span></span>
   border-right-color: #D3D3D3;
 }
 
-#qthxeujzpv .gt_footnote {
+#ajssldtmpd .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1923,7 +1923,7 @@ font-style: inherit;">2</span></span>
   padding-right: 5px;
 }
 
-#qthxeujzpv .gt_sourcenotes {
+#ajssldtmpd .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1937,7 +1937,7 @@ font-style: inherit;">2</span></span>
   border-right-color: #D3D3D3;
 }
 
-#qthxeujzpv .gt_sourcenote {
+#ajssldtmpd .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1945,72 +1945,72 @@ font-style: inherit;">2</span></span>
   padding-right: 5px;
 }
 
-#qthxeujzpv .gt_left {
+#ajssldtmpd .gt_left {
   text-align: left;
 }
 
-#qthxeujzpv .gt_center {
+#ajssldtmpd .gt_center {
   text-align: center;
 }
 
-#qthxeujzpv .gt_right {
+#ajssldtmpd .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#qthxeujzpv .gt_font_normal {
+#ajssldtmpd .gt_font_normal {
   font-weight: normal;
 }
 
-#qthxeujzpv .gt_font_bold {
+#ajssldtmpd .gt_font_bold {
   font-weight: bold;
 }
 
-#qthxeujzpv .gt_font_italic {
+#ajssldtmpd .gt_font_italic {
   font-style: italic;
 }
 
-#qthxeujzpv .gt_super {
+#ajssldtmpd .gt_super {
   font-size: 65%;
 }
 
-#qthxeujzpv .gt_footnote_marks {
+#ajssldtmpd .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#qthxeujzpv .gt_asterisk {
+#ajssldtmpd .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#qthxeujzpv .gt_indent_1 {
+#ajssldtmpd .gt_indent_1 {
   text-indent: 5px;
 }
 
-#qthxeujzpv .gt_indent_2 {
+#ajssldtmpd .gt_indent_2 {
   text-indent: 10px;
 }
 
-#qthxeujzpv .gt_indent_3 {
+#ajssldtmpd .gt_indent_3 {
   text-indent: 15px;
 }
 
-#qthxeujzpv .gt_indent_4 {
+#ajssldtmpd .gt_indent_4 {
   text-indent: 20px;
 }
 
-#qthxeujzpv .gt_indent_5 {
+#ajssldtmpd .gt_indent_5 {
   text-indent: 25px;
 }
 
-#qthxeujzpv .katex-display {
+#ajssldtmpd .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#qthxeujzpv div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#ajssldtmpd div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -2108,7 +2108,7 @@ font-style: inherit;">2</span></span>
 </div>
 </div>
 </div>
-<p>Pat Shurmur, who was the offensive coordinator in Denver for the 2020 and 2021 seasons under head coach Vic Fangio, was not able to get as much out of Drew Lock efficiency-wise as literally any other play caller Lock has had throughout his career. He had his worst completion percentage and quarterback rating seasons under Shurmur, and while in 2020 he had better average numbers volume-wise, his efficiency was atrocious.&nbsp;</p>
+<p>Pat Shurmur, who was the offensive coordinator in Denver for the 2020 and 2021 seasons under head coach Vic Fangio, was not able to get as much out of Drew Lock efficiency-wise as literally any other play caller Lock has had throughout his career. He had his worst completion percentage and passer rating seasons under Shurmur, and while in 2020 he had better average numbers volume-wise, his efficiency was atrocious.&nbsp;</p>
 <p>With Drew Lock’s high potential, he should have been given another full season to develop with a competent coaching staff that believed in him and could’ve help him improve his game and learn from mistakes. Then he could have been the franchise quarterback the Denver Broncos spent so much time searching for.</p>
 <p>&nbsp;Giving a quarterback more time to develop worked out for the Bills and Josh Allen, and Lock’s current teammate, Sam Darnold, who was considered a massive draft bust, went from “seeing ghosts” to winning Super Bowls and tying Tom Brady for most wins in a two-season stretch after being given time to develop and a competent coaching staff.</p>
 
@@ -2121,61 +2121,6 @@ font-style: inherit;">2</span></span>
   <guid>https://your-website-url.example.com/posts/drew-lock-should-have-been-the-broncos-franchise-quarterback/</guid>
   <pubDate>Thu, 09 Apr 2026 05:00:00 GMT</pubDate>
   <media:content url="https://your-website-url.example.com/posts/drew-lock-should-have-been-the-broncos-franchise-quarterback/image1.png" medium="image" type="image/png" height="98" width="144"/>
-</item>
-<item>
-  <title>Post With Code</title>
-  <dc:creator>Harlow Malloc</dc:creator>
-  <link>https://your-website-url.example.com/posts/post-with-code/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>This is a post with executable code.</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span> <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span></span></code></pre></div></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
-
-
-
- ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
-  <guid>https://your-website-url.example.com/posts/post-with-code/</guid>
-  <pubDate>Mon, 30 Mar 2026 05:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Welcome To My Blog</title>
-  <dc:creator>Tristan O&#39;Malley</dc:creator>
-  <link>https://your-website-url.example.com/posts/welcome/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="https://your-website-url.example.com/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <guid>https://your-website-url.example.com/posts/welcome/</guid>
-  <pubDate>Fri, 27 Mar 2026 05:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
