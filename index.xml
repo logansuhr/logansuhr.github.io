@@ -21,6 +21,7 @@
 
 
 
+
 <p>Between Peyton Manning and Bo Nix, the Denver Broncos went through a carousel of horrific quarterback play, but did they have to? Drew Lock was drafted 42nd overall in the 2019 NFL Draft by the Broncos and has since become a career backup, but there was once a time when fans were hopeful for his future as Denver’s quarterback after he went 4-1 in his rookie season, after getting the starting position due to a Joe Flacco injury and a Brandon Allen benching.&nbsp;</p>
 <p>After Lock got a full year of starting experience in 2020, many Broncos fans were already done with him. He had some lackluster performances and could be turnover-prone, but others could see the potential and wanted to give Lock more time to develop. He was never given this opportunity, however, because in the offseason the Broncos traded with the Carolina Panthers for Teddy Bridgewater, and Bridgewater was named the starter before the regular season started.&nbsp;</p>
 <p>Some fans were happy with the decision because he provided stability at the position, but others wanted Lock to start because of Bridgewater’s lack of upside; the team essentially knew exactly what they were going to get from Bridgewater.&nbsp;</p>
@@ -1565,23 +1566,23 @@ font-style: inherit;">2</span></span>
 <span id="cb5-59">  )</span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
-<div id="ajssldtmpd" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#ajssldtmpd table {
+<div id="fgjuryastl" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#fgjuryastl table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#ajssldtmpd thead, #ajssldtmpd tbody, #ajssldtmpd tfoot, #ajssldtmpd tr, #ajssldtmpd td, #ajssldtmpd th {
+#fgjuryastl thead, #fgjuryastl tbody, #fgjuryastl tfoot, #fgjuryastl tr, #fgjuryastl td, #fgjuryastl th {
   border-style: none;
 }
 
-#ajssldtmpd p {
+#fgjuryastl p {
   margin: 0;
   padding: 0;
 }
 
-#ajssldtmpd .gt_table {
+#fgjuryastl .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1607,12 +1608,12 @@ font-style: inherit;">2</span></span>
   border-left-color: #D3D3D3;
 }
 
-#ajssldtmpd .gt_caption {
+#fgjuryastl .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#ajssldtmpd .gt_title {
+#fgjuryastl .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1624,7 +1625,7 @@ font-style: inherit;">2</span></span>
   border-bottom-width: 0;
 }
 
-#ajssldtmpd .gt_subtitle {
+#fgjuryastl .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1636,7 +1637,7 @@ font-style: inherit;">2</span></span>
   border-top-width: 0;
 }
 
-#ajssldtmpd .gt_heading {
+#fgjuryastl .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1648,13 +1649,13 @@ font-style: inherit;">2</span></span>
   border-right-color: #D3D3D3;
 }
 
-#ajssldtmpd .gt_bottom_border {
+#fgjuryastl .gt_bottom_border {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ajssldtmpd .gt_col_headings {
+#fgjuryastl .gt_col_headings {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1669,7 +1670,7 @@ font-style: inherit;">2</span></span>
   border-right-color: #D3D3D3;
 }
 
-#ajssldtmpd .gt_col_heading {
+#fgjuryastl .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1689,7 +1690,7 @@ font-style: inherit;">2</span></span>
   overflow-x: hidden;
 }
 
-#ajssldtmpd .gt_column_spanner_outer {
+#fgjuryastl .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1701,15 +1702,15 @@ font-style: inherit;">2</span></span>
   padding-right: 4px;
 }
 
-#ajssldtmpd .gt_column_spanner_outer:first-child {
+#fgjuryastl .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ajssldtmpd .gt_column_spanner_outer:last-child {
+#fgjuryastl .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ajssldtmpd .gt_column_spanner {
+#fgjuryastl .gt_column_spanner {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1721,11 +1722,11 @@ font-style: inherit;">2</span></span>
   width: 100%;
 }
 
-#ajssldtmpd .gt_spanner_row {
+#fgjuryastl .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#ajssldtmpd .gt_group_heading {
+#fgjuryastl .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1751,7 +1752,7 @@ font-style: inherit;">2</span></span>
   text-align: left;
 }
 
-#ajssldtmpd .gt_empty_group_heading {
+#fgjuryastl .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1766,15 +1767,15 @@ font-style: inherit;">2</span></span>
   vertical-align: middle;
 }
 
-#ajssldtmpd .gt_from_md > :first-child {
+#fgjuryastl .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ajssldtmpd .gt_from_md > :last-child {
+#fgjuryastl .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ajssldtmpd .gt_row {
+#fgjuryastl .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1793,7 +1794,7 @@ font-style: inherit;">2</span></span>
   overflow-x: hidden;
 }
 
-#ajssldtmpd .gt_stub {
+#fgjuryastl .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1806,7 +1807,7 @@ font-style: inherit;">2</span></span>
   padding-right: 5px;
 }
 
-#ajssldtmpd .gt_stub_row_group {
+#fgjuryastl .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1820,15 +1821,15 @@ font-style: inherit;">2</span></span>
   vertical-align: top;
 }
 
-#ajssldtmpd .gt_row_group_first td {
+#fgjuryastl .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#ajssldtmpd .gt_row_group_first th {
+#fgjuryastl .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#ajssldtmpd .gt_summary_row {
+#fgjuryastl .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1838,16 +1839,16 @@ font-style: inherit;">2</span></span>
   padding-right: 5px;
 }
 
-#ajssldtmpd .gt_first_summary_row {
+#fgjuryastl .gt_first_summary_row {
   border-top-style: none;
   border-top-color: #D3D3D3;
 }
 
-#ajssldtmpd .gt_first_summary_row.thick {
+#fgjuryastl .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#ajssldtmpd .gt_last_summary_row {
+#fgjuryastl .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1857,7 +1858,7 @@ font-style: inherit;">2</span></span>
   border-bottom-color: #D3D3D3;
 }
 
-#ajssldtmpd .gt_grand_summary_row {
+#fgjuryastl .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1867,7 +1868,7 @@ font-style: inherit;">2</span></span>
   padding-right: 5px;
 }
 
-#ajssldtmpd .gt_first_grand_summary_row {
+#fgjuryastl .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1877,7 +1878,7 @@ font-style: inherit;">2</span></span>
   border-top-color: #D3D3D3;
 }
 
-#ajssldtmpd .gt_last_grand_summary_row_top {
+#fgjuryastl .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1887,11 +1888,11 @@ font-style: inherit;">2</span></span>
   border-bottom-color: #D3D3D3;
 }
 
-#ajssldtmpd .gt_striped {
+#fgjuryastl .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ajssldtmpd .gt_table_body {
+#fgjuryastl .gt_table_body {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1900,7 +1901,7 @@ font-style: inherit;">2</span></span>
   border-bottom-color: #D3D3D3;
 }
 
-#ajssldtmpd .gt_footnotes {
+#fgjuryastl .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1914,7 +1915,7 @@ font-style: inherit;">2</span></span>
   border-right-color: #D3D3D3;
 }
 
-#ajssldtmpd .gt_footnote {
+#fgjuryastl .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1923,7 +1924,7 @@ font-style: inherit;">2</span></span>
   padding-right: 5px;
 }
 
-#ajssldtmpd .gt_sourcenotes {
+#fgjuryastl .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1937,7 +1938,7 @@ font-style: inherit;">2</span></span>
   border-right-color: #D3D3D3;
 }
 
-#ajssldtmpd .gt_sourcenote {
+#fgjuryastl .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1945,72 +1946,72 @@ font-style: inherit;">2</span></span>
   padding-right: 5px;
 }
 
-#ajssldtmpd .gt_left {
+#fgjuryastl .gt_left {
   text-align: left;
 }
 
-#ajssldtmpd .gt_center {
+#fgjuryastl .gt_center {
   text-align: center;
 }
 
-#ajssldtmpd .gt_right {
+#fgjuryastl .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ajssldtmpd .gt_font_normal {
+#fgjuryastl .gt_font_normal {
   font-weight: normal;
 }
 
-#ajssldtmpd .gt_font_bold {
+#fgjuryastl .gt_font_bold {
   font-weight: bold;
 }
 
-#ajssldtmpd .gt_font_italic {
+#fgjuryastl .gt_font_italic {
   font-style: italic;
 }
 
-#ajssldtmpd .gt_super {
+#fgjuryastl .gt_super {
   font-size: 65%;
 }
 
-#ajssldtmpd .gt_footnote_marks {
+#fgjuryastl .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#ajssldtmpd .gt_asterisk {
+#fgjuryastl .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#ajssldtmpd .gt_indent_1 {
+#fgjuryastl .gt_indent_1 {
   text-indent: 5px;
 }
 
-#ajssldtmpd .gt_indent_2 {
+#fgjuryastl .gt_indent_2 {
   text-indent: 10px;
 }
 
-#ajssldtmpd .gt_indent_3 {
+#fgjuryastl .gt_indent_3 {
   text-indent: 15px;
 }
 
-#ajssldtmpd .gt_indent_4 {
+#fgjuryastl .gt_indent_4 {
   text-indent: 20px;
 }
 
-#ajssldtmpd .gt_indent_5 {
+#fgjuryastl .gt_indent_5 {
   text-indent: 25px;
 }
 
-#ajssldtmpd .katex-display {
+#fgjuryastl .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#ajssldtmpd div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#fgjuryastl div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
