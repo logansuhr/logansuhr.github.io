@@ -768,7 +768,7 @@ font-style: inherit;">"y"</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">nudge_x =</span> .<span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">7</span>) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">170933</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
 <span id="cb3-28">   <span class="fu" style="color: #4758AB;
@@ -777,7 +777,7 @@ font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">title=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Nugget's players stepped up their volume"</span>, <span class="at" style="color: #657422;
+font-style: inherit;">"Nuggets players stepped up their volume"</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle=</span><span class="st" style="color: #20794D;
 background-color: null;
@@ -860,7 +860,7 @@ font-style: inherit;">"plot"</span></span>
 </div>
 </div>
 <p>Every player to play 15 or more minutes for the Nuggets had a better combined points, rebounds, and assists then their career average besides DaRon Holmes II. The biggest riser was Jalen Pickett who had 41 after averaging about 15 in his career. Other notable risers include Peyton Watson and Zeke Nnaji.</p>
-<p>But volume isn’t everything if you are inefficient. So, how good did they have to shoot to pull this win out.&nbsp;</p>
+<p>But volume isn’t everything if you are inefficient. So, how good did the Nuggets have to shoot to pull this win out?</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
